@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="interface-styles.css">
+    <script defer src="interface-script.js"></script>
+    <title>Cloud Library</title>
+</head>
+
+<body>
+    <div class="container">
+        <div class="header">
+            <h1>Welcome to Cloud Library</h1>
+        </div>
+
+        <div class="search-bar">
+            <input type="text" id="searchInput" placeholder="Search for a book..." onkeyup="searchBooks()">
+        </div>
+
+        <div class="books" id="bookList">
+            <div class="book">
+                <img src="book1.jpg" alt="Book 1">
+                <h3>البداية و النهاية</h3>
+                <p>Ibn Kathir</p>
+                <p>islamk</p>
+                <button>Read Now</button>
+            </div>
+            <div class="book">
+                <img src="book2.jpg" alt="Book 2">
+                <h3>Formula 1 Records</h3>
+                <p>Toto Wolf</p>
+                <p>Sport</p>
+                <button>Read Now</button>
+            </div>
+            <div class="book">
+                <img src="book3.jpg" alt="Book 3">
+                <h3>بكامل قواي القلبية</h3>
+                <p>Saeed bin Mena</p>
+                <p>Postic</p>
+                <button>Read Now</button>
+            </div>
+            <div class="book">
+                <img src="book4.jpg" alt="Book 4">
+                <h3>شمس المعارف</h3>
+                <p>فرعون</p>
+                <p>Magic</p>
+                <button>Read Now</button>
+            </div>
+            <div class="book">
+                <img src="book5.jpg" alt="Book 5">
+                <h3>CEH</h3>
+                <p>By J.D. Salinger</p>
+                <p>Network</p>
+                <button>Read Now</button>
+            </div>
+        </div>
+
+        <div class="footer">
+            <button onclick="logout()">Logout</button>
+        </div>
+    </div>
+</body>
+
+</html>
